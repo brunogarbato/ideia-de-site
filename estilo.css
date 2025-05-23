@@ -1,0 +1,179 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu img {
+    max-width: 100%;
+    height: 26px;
+    
+}
+
+header {
+    background: url(imagens/image-header.jpg) center center / cover no-repeat;
+    display: block;
+    padding: 0px 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+    height: 100vh;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu ul li:hover {
+    font-size: 1.13em;
+}
+
+.menu {
+    display: flex;
+    padding: 18px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 91%;
+}
+
+.menu ul li {
+    display: flex;
+    padding-right: 50px;
+    color: #fff;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+ul li.contato {
+    background-color: white;
+    color: black;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 0.93em;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    font-family: "Fraunces", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.seta {
+    padding-top: 65px;
+
+}
+
+.txt-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagem-ovo {
+    width: 50vw;
+    height: 750px;
+    position: relative; /* Necessário para que o posicionamento absoluto funcione */
+    overflow: hidden;   /* Esconde partes da imagem que ultrapassarem a div */
+}
+
+.imagem-ovo img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto; /* Mantém proporção da imagem */
+}
+
+.texto {
+    width: 750px;
+    height: 500px;
+    margin-left:100px ;
+}
+
+.teste {
+    width: 50vw;
+    margin-top: 120px ;
+}
+
+
+.texto h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #23303E;
+    padding-left: 30px;
+
+}
+
+.texto p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    color: #818498;
+    padding: 30px 0px 30px 30px;
+}
+
+.imagem-taca {
+    width: 49.7vw;
+    height: 700px;
+    position: relative;
+}
+
+.imagem-taca img {
+    position: absolute;
+    height: 100%; /* Mantém proporção da imagem */
+    width: 100%;
+}
+
+.texto2 {
+    width: 750px;
+    height: 500px;
+    margin-left:100px ;
+    padding-top: 120px;
+}
+
+.texto2 h2 {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #23303E;
+    padding-left: 30px;
+
+}
+
+.texto2 p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 1.05em;
+    color: #818498;
+    padding: 30px 0px 30px 30px;
+}
