@@ -13,7 +13,7 @@
 
 .menu img {
     max-width: 100%;
-    height: 26px;
+    height: 28px;
     
 }
 
@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 91%;
+    width: 90%;
 }
 
 .menu ul li {
@@ -69,7 +69,7 @@ ul li.contato {
     font-family: "Fraunces", sans-serif;
     font-weight: 700;
     border-radius: 5rem;
-    padding: 16px;
+    padding: 18px;
     text-transform: uppercase;
     font-size: 0.93em;
 }
@@ -77,14 +77,17 @@ ul li.contato {
 .titulo {
     display: flex;
     flex-direction: column;
-    font-family: "Fraunces", sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
     letter-spacing: 5px;
     color: #fff;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
 
+}
+
+.titulo h1 {
+    font-weight: 800;
+    font-family: "Fraunces", sans-serif;
+    font-size: 3.3em;
 }
 
 .seta {
@@ -144,7 +147,7 @@ ul li.contato {
 
 .imagem-taca {
     width: 49.7vw;
-    height: 700px;
+    height: 750px;
     position: relative;
 }
 
@@ -176,4 +179,22 @@ ul li.contato {
     font-size: 1.05em;
     color: #818498;
     padding: 30px 0px 30px 30px;
+}
+
+p.learn  {
+    font-family: "Fraunces", sans-serif;
+    color: #23303E;
+}
+.cer-lar {
+    display: flex;
+    width: 100%;
+}
+
+.cereja {
+
+}
+
+.laranja{
+
+
 }
