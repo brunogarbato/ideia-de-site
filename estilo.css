@@ -80,7 +80,7 @@ ul li.contato {
     letter-spacing: 5px;
     color: #fff;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 75px;
 
 }
 
@@ -91,7 +91,7 @@ ul li.contato {
 }
 
 .seta {
-    padding-top: 65px;
+    padding-top: 75px;
 
 }
 
@@ -184,17 +184,69 @@ ul li.contato {
 p.learn  {
     font-family: "Fraunces", sans-serif;
     color: #23303E;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.87em;
 }
 .cer-lar {
     display: flex;
     width: 100%;
+
+}
+.cereja {
+    background: url(imagens/cereja.png) no-repeat top center / cover;
+    width: 49.7vw;
+    height: 550px;
+    position: relative;
+    text-align: center;
+    
 }
 
-.cereja {
-
+.cereja img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Mantém proporção da imagem */
+    
 }
 
 .laranja{
-
+    background: url(imagens/laranja.png) no-repeat top center / cover;
+    text-align: center;
+    width: 49.5vw;
+    height: 550px;
+    position: relative;
 
 }
+
+.laranja img {
+    position: absolute;
+    width: 100%;
+    height: 100%; /* Mantém proporção da imagem */
+
+}
+
+.txt-dentro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 75%;
+
+    
+    
+}
+
+.txt-dentro h2 {
+    font: 900 1.6em "Fraunces", sans-serif;
+    color: #23303E;
+}
+
+.txt-dentro p {
+    padding-top: 30px;
+    font: 600 1.05em "Barlow" , sans-serif  ;
+    color: #25564B;
+
+}
+
+
