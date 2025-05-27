@@ -29,12 +29,6 @@ header {
     height: 100vh;
 }
 
-.menu ul {
-    display: flex;
-    
-}
-
-
 .menu {
     display: flex;
     padding: 18px;
@@ -50,14 +44,22 @@ header {
     width: 90%;
 }
 
-.menu ul li {
-    display: flex;
-    padding-right: 50px;
+.menu li {
+    display: inline-block;
     color: #fff;
     align-items: center;
     font-weight: 500;
     font-size: 1.1em;
     cursor: pointer;
+    padding-right: 40px;
+}
+
+
+.menu .contato:hover {
+    background-color: transparent;
+    color: white;
+    transition: 0.2s ease-in-out;
+    transform: translate(-0px, -2px);
 }
 
 ul li.contato {
