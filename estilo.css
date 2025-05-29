@@ -44,6 +44,12 @@ header {
     width: 90%;
 }
 
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
 .menu li {
     display: inline-block;
     color: #fff;
@@ -51,8 +57,8 @@ header {
     font-weight: 500;
     font-size: 1.1em;
     cursor: pointer;
-    padding-right: 40px;
 }
+
 
 
 .menu .contato:hover {
@@ -62,7 +68,7 @@ header {
     transform: translate(-0px, -2px);
 }
 
-ul li.contato {
+ul .contato {
     background-color: white;
     color: black;
     font-family: "Fraunces", sans-serif;
